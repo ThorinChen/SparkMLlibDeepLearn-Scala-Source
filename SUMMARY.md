@@ -1,21 +1,3 @@
-# SparkMLlibDeepLearn-Scala-Source
- SparkMLlibDeepLearn-Scala-Source
-
- 
- 
- &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;![spark](spark-trademark.png)
-
-# spark机器学习算法研究和源码分析
-
-&emsp;&emsp;本项目对`spark ml`包中各种算法的原理加以介绍并且对算法的代码实现进行详细分析，旨在加深自己对机器学习算法的理解，熟悉这些算法的分布式实现方式。
-
-## 本系列文章支持的spark版本
-
-&emsp;&emsp;本系列文章大部分的算法基于spark 1.6.1，少部分基于spark 2.x。
-
-## 本系列的目录结构
-
-&emsp;&emsp;本系列目录如下：
 * [数据类型](数据类型/data-type.md)
 * [基本统计](基本统计/summary-statistics.md)
     * [summary statistics（概括统计）](基本统计/summary-statistics.md)
@@ -40,7 +22,7 @@
     * [生存回归](分类和回归/生存回归/survival-regression.md)
     * [保序回归](分类和回归/保序回归/isotonic-regression.md)
 * [聚类](聚类/readme.md)
-    * [k-means||算法](聚类/k-means/k-means.md)
+    * [k-means算法](聚类/k-means/k-means.md)
     * [GMM（高斯混合模型）](聚类/gaussian-mixture/gaussian-mixture.md)
     * [PIC（快速迭代聚类）](聚类/PIC/pic.md)
     * [LDA（隐式狄利克雷分布)](聚类/LDA/lda.md)
@@ -85,14 +67,3 @@
        * [VectorSlicer](特征抽取和转换/VectorSlicer.md)
        * [RFormula](特征抽取和转换/RFormula.md)
        * [ChiSqSelector(卡方选择器)](特征抽取和转换/chi-square-selector.md)
-
-    
-## 说明
-
-&emsp;&emsp;本专题的大部分内容来自[spark源码](https://github.com/apache/spark)、[spark官方文档](https://spark.apache.org/docs/latest)，并不用于商业用途。转载请注明本专题地址。
-
-
-&emsp;&emsp;本专题的部分文章中用到了latex来写数学公式,可以在浏览器中安装`MathJax`插件用来展示这些公式。
-
-&emsp;&emsp;本人水平有限，分析中难免有错误和误解的地方，请大家不吝指教，万分感激。
-    
